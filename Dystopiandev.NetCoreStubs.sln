@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dystopiandev.NetCoreStubs.BackgroundProcesses.WithTimer", "src\background-processes\Dystopiandev.NetCoreStubs.BackgroundProcesses.WithTimer\Dystopiandev.NetCoreStubs.BackgroundProcesses.WithTimer.csproj", "{755245D7-FCB2-4CB5-BEF4-74E26AB515A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundProcesses.WithTimer", "src\background-processes\BackgroundProcesses.WithTimer\BackgroundProcesses.WithTimer.csproj", "{755245D7-FCB2-4CB5-BEF4-74E26AB515A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitmqProducer", "src\RabbitmqProducer\RabbitmqProducer.csproj", "{B2B5D39E-3D3E-4F09-816D-A76B2061104D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitmqConsumer", "src\RabbitmqConsumer\RabbitmqConsumer.csproj", "{31E9A21B-CF66-4EA9-B251-F3C3788BCCB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +16,13 @@ Global
 		{755245D7-FCB2-4CB5-BEF4-74E26AB515A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{755245D7-FCB2-4CB5-BEF4-74E26AB515A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{755245D7-FCB2-4CB5-BEF4-74E26AB515A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B5D39E-3D3E-4F09-816D-A76B2061104D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B5D39E-3D3E-4F09-816D-A76B2061104D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B5D39E-3D3E-4F09-816D-A76B2061104D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B5D39E-3D3E-4F09-816D-A76B2061104D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E9A21B-CF66-4EA9-B251-F3C3788BCCB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E9A21B-CF66-4EA9-B251-F3C3788BCCB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E9A21B-CF66-4EA9-B251-F3C3788BCCB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E9A21B-CF66-4EA9-B251-F3C3788BCCB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

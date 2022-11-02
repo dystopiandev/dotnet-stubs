@@ -1,4 +1,4 @@
-namespace Dystopiandev.NetCoreStubs.BackgroundProcesses.WithTimer;
+namespace BackgroundProcesses.WithTimer;
 
 public class Worker : BackgroundService, IDisposable
 {
